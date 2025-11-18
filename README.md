@@ -30,7 +30,7 @@ Se han verificado los algoritmos utilizando los siguientes datasets estandarizad
 
 ### Requisitos
 * **JDK:** Versión 17 o superior.
-* **IDE:** IntelliJ IDEA (recomendado) o VS Code con extensiones de Java.
+* **IDE:** IntelliJ IDEA.
 
 ### Pasos
 1.  Abrir el proyecto en el IDE.
