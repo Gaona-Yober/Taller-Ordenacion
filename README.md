@@ -2,8 +2,8 @@
 
 **Asignatura:** Estructura de Datos  
 **Unidad:** 2 - Ordenación y Búsqueda  
-**Autor:** [Tu Nombre Aquí]  
-**Fecha:** [Fecha de Hoy]
+**Autores:** Yober Gaona, Mateo Silva.   
+**Fecha:** Lunes 17 Noviembre 2025
 
 ---
 
