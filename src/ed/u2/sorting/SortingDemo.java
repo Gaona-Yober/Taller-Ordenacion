@@ -30,7 +30,7 @@ public class SortingDemo {
         testAll(E);
     }
 
-    // Método helper para probar los 3 algoritmos con el mismo dataset
+    // metodo auxiliar para probar los tres algoritmos en un mismo dataset
     private static void testAll(int[] original) {
         System.out.println("Original: " + Arrays.toString(original));
 
