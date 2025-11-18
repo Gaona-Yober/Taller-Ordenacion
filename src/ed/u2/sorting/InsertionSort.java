@@ -6,7 +6,7 @@ public final class InsertionSort {
         System.out.println("=== Inicio Insertion Sort ===");
         int n = a.length;
 
-        // Bucle externo i = 1..n-1 [cite: 50]
+        // Bucle externo i = 1..n-1
         for (int i = 1; i < n; i++) {
             int key = a[i];
             int j = i - 1;

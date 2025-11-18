@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortingDemo {
     public static void main(String[] args) {
-        // Definición de Datasets según la guía [cite: 79-83]
+        // Definición de Datasets según la guía
         int[] A = {8, 3, 6, 3, 9};
         int[] B = {5, 4, 3, 2, 1}; // Inverso
         int[] C = {1, 2, 3, 4, 5}; // Ya ordenado
