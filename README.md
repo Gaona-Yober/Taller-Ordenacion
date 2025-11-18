@@ -22,7 +22,7 @@ Se han verificado los algoritmos utilizando los siguientes datasets estandarizad
 
 * **Dataset A (Aleatorio):** `[8, 3, 6, 3, 9]` - Caso promedio.
 * **Dataset B (Orden Inverso):** `[5, 4, 3, 2, 1]` - El peor caso para algoritmos como Inserción y Burbuja (máximo número de comparaciones/movimientos).
-* **Dataset C (Ya Ordenado):** `[1, 2, 3, 4, 5]` - Caso borde para verificar la optimización del **Corte Temprano** en Burbuja y la eficiencia de Inserción ($O(n)$).
+* **Dataset C (Ya Ordenado):** `[1, 2, 3, 4, 5]` - Caso borde para verificar la optimización del **Corte Temprano** en Burbuja y la eficiencia de Inserción.
 * **Dataset D (Duplicados):** `[2, 2, 2, 2]` - Verifica que los algoritmos no realicen intercambios innecesarios o ciclos infinitos con valores idénticos.
 * **Dataset E:** `[9, 1, 8, 2]` - Caso pequeño adicional de prueba.
 
