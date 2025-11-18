@@ -57,7 +57,7 @@ Basado en la ejecución:
 *(Basado en la Sección 7 de la Guía)*
 
 **1. ¿Por qué Inserción es preferible con datos casi ordenados?**
-Porque el algoritmo trabaja de manera "adaptativa". Si el dato actual ya es mayor que el anterior, no entra al bucle interno (`while`) y pasa al siguiente. En un arreglo casi ordenado, esto convierte la complejidad prácticamente en lineal ($O(n)$), haciéndolo mucho más rápido que Selección o Burbuja estándar.
+Porque el algoritmo trabaja de manera "adaptativa". Si el dato actual ya es mayor que el anterior, no entra al bucle interno (`while`) y pasa al siguiente. En un arreglo casi ordenado, esto convierte la complejidad prácticamente en lineal, haciéndolo mucho más rápido que Selección o Burbuja estándar.
 
 **2. ¿Qué propiedad hace que Selección use pocos swaps? ¿Qué compromisos tiene?**
 Su propiedad principal es que **solo hace un intercambio por cada pasada** del bucle externo (una vez que encuentra el mínimo). Es ideal si escribir en memoria es costoso. El compromiso es que es "ciego" al orden: aunque el arreglo ya esté ordenado, Selección seguirá haciendo todas las comparaciones cuadráticas sin detenerse antes.
