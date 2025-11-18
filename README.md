@@ -60,10 +60,10 @@ Basado en la ejecución:
 Porque el algoritmo trabaja de manera "adaptativa". Si el dato actual ya es mayor que el anterior, no entra al bucle interno (`while`) y pasa al siguiente. En un arreglo casi ordenado, esto convierte la complejidad prácticamente en lineal ($O(n)$), haciéndolo mucho más rápido que Selección o Burbuja estándar.
 
 **2. ¿Qué propiedad hace que Selección use pocos swaps? ¿Qué compromisos tiene?**
-Su propiedad principal es que **solo hace un intercambio por cada pasada** del bucle externo (una vez que encuentra el mínimo). Es ideal si escribir en memoria es costoso. El compromiso es que es "ciego" al orden: aunque el arreglo ya esté ordenado, Selección seguirá haciendo todas las comparaciones cuadráticas ($O(n^2)$) sin detenerse antes.
+Su propiedad principal es que **solo hace un intercambio por cada pasada** del bucle externo (una vez que encuentra el mínimo). Es ideal si escribir en memoria es costoso. El compromiso es que es "ciego" al orden: aunque el arreglo ya esté ordenado, Selección seguirá haciendo todas las comparaciones cuadráticas sin detenerse antes.
 
 **3. ¿Cómo implementarías el corte temprano en Burbuja y qué caso reduce significativamente?**
-Lo implementé usando una variable `boolean swapped = false` al inicio de cada pasada. Si hago un intercambio, la pongo en `true`. Si al terminar la pasada sigue en `false`, hago un `break`. Esto reduce significativamente el tiempo en el caso de **arreglos ya ordenados** (Best Case), bajando la complejidad a $O(n)$.
+Lo implementé usando una variable `boolean swapped = false` al inicio de cada pasada. Si hago un intercambio, la pongo en `true`. Si al terminar la pasada sigue en `false`, hago un `break`. Esto reduce significativamente el tiempo en el caso de **arreglos ya ordenados** (Best Case), bajando la complejidad.
 
 **4. ¿Cuál(es) de los tres puede(n) ser estable y en qué condiciones?**
 **Inserción y Burbuja** son estables. Para asegurar esto en mi código, usé comparadores estrictos (`>` en lugar de `>=`). Así, si dos números son iguales (como los `2` en el Dataset D), no se intercambian posiciones, manteniendo el orden original relativo. Selección, por lo general, no es estable debido a los intercambios de larga distancia.
