@@ -5,11 +5,11 @@ public final class SelectionSort {
     public static void sort(int[] a) {
         System.out.println("=== Inicio Selection Sort ===");
         int n = a.length;
-        int swapCount = 0; // Contador de swaps requerido [cite: 55]
+        int swapCount = 0; // Contador de swaps requerido
 
         for (int i = 0; i < n - 1; i++) {
             int minIdx = i;
-            // Buscar el mínimo en el resto del arreglo [cite: 54]
+            // Buscar el mínimo en el resto del arreglo
             for (int j = i + 1; j < n; j++) {
                 if (a[j] < a[minIdx]) {
                     minIdx = j;

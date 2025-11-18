@@ -18,7 +18,6 @@ public final class InsertionSort {
             }
             a[j + 1] = key;
 
-            // TRAZA REQUERIDA POR RÚBRICA
             System.out.printf("Iteración %d (Insertando %d): ", i, key);
             SortingUtils.printArray(a);
         }
