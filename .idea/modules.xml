@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Taller-Ordenacion.iml" filepath="$PROJECT_DIR$/.idea/Taller-Ordenacion.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/TallerOrdenacion.iml" filepath="$PROJECT_DIR$/TallerOrdenacion.iml" />
+>>>>>>> develop
     </modules>
   </component>
 </project>
